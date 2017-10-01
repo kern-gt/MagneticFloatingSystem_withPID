@@ -38,6 +38,7 @@ Includes
 #include "r_cg_macrodriver.h"
 #include "r_cg_cgc.h"
 /* Start user code for include. Do not edit comment generated here */
+#include "../main_apl.h"
 /* End user code. Do not edit comment generated here */
 #include "r_cg_userdefine.h"
 
@@ -59,10 +60,7 @@ void main(void)
 {
     R_MAIN_UserInit();
     /* Start user code. Do not edit comment generated here */
-    while (1U)
-    {
-        ;
-    }
+    MainApplication();
     /* End user code. Do not edit comment generated here */
 }
 /***********************************************************************************************************************
